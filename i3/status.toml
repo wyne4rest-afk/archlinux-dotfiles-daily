@@ -1,0 +1,33 @@
+[theme]
+theme = "gruvbox-dark"
+
+[icons]
+icons = "none"
+
+[[block]]
+block = "cpu"
+interval = 1
+format = "  $utilization "
+
+[[block]]
+block = "memory"
+format = "  $mem_used_percents "
+
+[[block]]
+block = "net"
+device = "wlp0s20f3"
+format = "  $ssid $signal_strength "
+
+[[block]]
+block = "battery"
+interval = 10
+format = " $icon $percentage "
+
+[[block]]
+block = "sound"
+format = "  $volume "
+
+[[block]]
+block = "time"
+interval = 1
+format = " 󰃭 $timestamp.datetime(f:'%a %m/%d')  $timestamp.datetime(f:'%R') "

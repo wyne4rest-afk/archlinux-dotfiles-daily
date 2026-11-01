@@ -1,0 +1,31 @@
+# Minimal Alacritty config for i3 + LazyVim
+
+[window]
+padding = { x = 10, y = 10 }
+opacity = 0.85
+decorations = "Full"
+startup_mode = "windowed"
+dynamic_title = true
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+normal.style = "Regular"
+size = 12
+
+[colors.primary]
+background = "#282828"
+foreground = "#ebdbb2"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"

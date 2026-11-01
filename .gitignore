@@ -1,0 +1,38 @@
+# Ignore everything by default
+/*
+
+# Allow this file
+!.gitignore
+
+# Terminal and shell
+!alacritty/
+!lxterminal/
+!nnn/
+!tint2/
+
+# Editors
+!nvim/
+
+# Window manager and desktop
+!i3/
+!xfce4/
+!Thunar/
+!gtk-3.0/
+!gtk-4.0/
+!menus/
+!QtProject.conf
+
+# Apps (settings only)
+!cmus/
+!okularrc
+!okularpartrc
+!simple-scan/
+!GIMP/
+
+# Never track these, even inside allowed folders
+**/*token*
+**/*secret*
+**/*credentials*
+**/*.key
+**/*cache*
+**/Cache/
